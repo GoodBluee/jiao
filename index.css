@@ -1,0 +1,469 @@
+*{
+		margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+	
+}
+body{
+
+	position:relative;
+	overflow: hidden;
+}
+#allcontent{
+	width:100%;
+	height:4300px;
+	position:relative;
+	overflow: hidden;
+	border:1px solid red;
+}
+#header li{
+	list-style-type: none;
+	
+	color:#fff;
+	font-weight: bolder;
+	font-size:16px;
+	padding-left:7px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;	
+	cursor:pointer;
+}
+
+#header{
+	background:#c93c67;
+	position:fixed;
+	width:55px;
+	z-index: 2;
+	top:120px;
+	right:0px;
+	padding-bottom:10px;
+	padding-top:20px;
+	border-radius: 10%;
+	cursor:pointer;
+}
+
+.little-but{
+	border:none;
+	padding:0 3px;
+	background: #c93c67;
+	color:#fff;
+	letter-spacing: 2px;
+}
+
+#header1{
+	position:relative;	
+}
+
+
+
+
+
+#page1{
+	width:100%;
+	height:680px;
+	background:#b8335c;
+	position:relative;
+
+}
+
+#pic1{
+margin-top:120px;
+display:none
+	
+}
+#pic2{
+	text-align: center;
+}
+#name1{
+	color:#ffffff;
+	font-size:40px;
+	font-weight:200px;	
+	width:100%;
+	text-align: center;
+	padding-top:30px;
+	display:none;
+	word-spacing: 10px;
+}
+
+.button{
+	position: absolute;
+    cursor:pointer;
+	bottom:8%;
+}
+#page2{
+	width:100%;
+	height:680px;
+	background:#ebf1e7;
+	position:relative;
+}
+#page2-h{
+	text-align: center;
+	padding-top:40px;
+	padding-bottom: 40px;
+	font-weight: normal;
+}
+#page3-div1{
+	width:320px;
+	position:absolute;
+	left:18%;
+}
+#page3-div2{
+width:400px;
+position:absolute;
+left:50%;	
+}
+#page3-div1,#page3-div2{
+	display:none;
+	background: #cbd0c7;
+	padding-bottom: 30px;
+	padding-top: 20px;
+	padding-right:13px;
+	border-radius: 6%;
+	color:#313231;
+	font-weight: 2px;
+	
+}
+
+
+#page3{
+	width:100%;
+	height:680px;
+	background:#f5e3bf;
+	position:relative;
+}
+#page3-h{
+	text-align: center;
+	padding-top:40px;
+	padding-bottom: 60px;
+	font-weight: normal;
+}
+#page3-h2{
+	font-size: 30px;
+	color:#a09e9d;
+}
+#aa{
+	width:550px;
+	height:30px;
+	background:#4b6961;
+	margin-left:284px;
+	border-left:solid 6px #2b413b;
+	color:#fff;
+	padding-top:8px;
+	padding-left:14px;
+	margin-bottom: 25px;
+}
+#bb{
+	width:440px;
+	height:30px;
+	background:#9bc7ba;	
+	margin-left:284px;
+	border-left:solid 6px #5bb298;
+	color:#40a486;
+	padding-top:8px;
+	padding-left:14px;
+	margin-bottom: 25px;
+}
+#cc{
+	width:330px;
+	height:30px;
+	background:#f5b0a1;	
+	margin-left:284px;
+	border-left:solid 6px #f5907a;
+	color:#f0694b;
+	padding-top:8px;
+	padding-left:14px;
+	margin-bottom: 25px;
+}
+/*#pgae3-ul1,#pgae3-ul2,#pgae3-ul3{
+	position:absolute;
+	display:none;
+}*/
+#page4{
+	width:100%;
+	height:680px;
+	position:relative;
+	background: #c7c4b5;
+}
+
+#page4-h{
+	text-align: center;
+	padding-top:40px;
+	padding-bottom: 50px;
+	font-weight: normal;	
+}
+.page4p{
+	display:inline-block;
+	border:outset 1px #fff;
+	line-height:35px;
+	margin-right:20px;
+	margin-top:5px;
+	text-align: center;
+	font-size: 16px;
+	font-weight:2px;
+}
+#page4-div{
+	width:450px;
+	display:inline-block;
+	letter-spacing: 2px;
+	background:#b7b4a6;
+	padding-left:20px;
+	padding-top:40px;
+	padding-bottom: 40px;
+	border-radius: 6%;
+	color:#313231;
+	
+}
+#page4-div-center{	
+	text-align: center;
+}
+.a1{
+	width:100px;
+}
+.a2{
+	width:200px;
+}
+.a3{
+	width:200px;
+}
+.a4{
+	width:100px;
+}
+.a5{
+	width:150px;
+}
+.a6{
+	width:150px;
+}
+.a7{
+	width:200px;
+}
+.a8{
+	width:100px;
+}
+.a9{
+	width:150px;
+}
+.a10{
+	width:150px;
+}
+.a11{
+	width:150px;
+}
+.a12{
+	width:150px;
+}
+.a1,.a2,.a3,.a5,.a6{
+	background:#ec6b46;
+}
+#page5{
+	width:100%;
+	height:680px;
+	position:relative;
+	line-height: 1.5;
+	background: #4a998f;	
+	color:#fff;
+}
+
+#b1{
+	border-bottom:2px dashed #d1f5f1;
+	position:relative;
+	height:150px;
+	width:850px;
+	margin:0 auto;
+	background:
+
+}
+#b11{
+	float:left;
+	width:120px;
+	margin-left:50px;
+	margin-top:40px;
+}
+#b12{
+	float:left;
+	width:590px;
+	margin-left:20px;
+margin-top:10px;
+
+}
+
+
+#b2{
+	border-bottom:2px dashed #d1f5f1;
+	position:relative;
+	height:120px;
+	width:850px;
+	margin:0 auto;
+}
+#b21{
+	float:left;
+	width:120px;
+	margin-left:50px;
+	margin-top:40px;
+}
+#b22{
+	float:left;
+	width:590px;
+	margin-left:20px;
+    margin-top:15px;
+
+}
+
+
+
+#b3{
+	border-bottom:2px dashed #d1f5f1;
+	position:relative;
+	height:60px;
+	width:850px;
+	margin:0 auto;
+}
+#b31{
+	width:120px;
+	margin-left:50px;
+	margin-top:30px;
+}
+#b32{
+
+	width:600px;
+	margin-left:20px;
+    position:absolute;
+    left:170px;
+    top:-20px;
+    padding-top:10px;
+
+}
+#page5-h{
+	text-align: center;
+	padding-top:40px;
+	padding-bottom: 30px;
+	font-weight: normal;	
+}
+#b11,#b21,#b31{
+	font-size:18px;
+}
+#b12,#b22,#b32{
+	font-size:15px;
+}
+#page2-ul1,#page2-ul2,#page2-ul3{
+	font-size:15px;
+	line-height:1.6 ;
+	padding-left:35px;
+	padding-top:10px;
+}
+#lastone{
+	width:100%;
+	height:720px;
+	position:relative;	
+	background: #f5b0a1;
+	color:#fff;
+	
+}
+#laston-h{
+	text-align: center;
+	padding-top:90px;
+	padding-bottom: 30px;
+	font-weight: normal;	
+}
+#lastone-p{
+	font-size:16px;
+	width:650px;
+	margin:0 auto;
+	margin-top:30px;
+	font-weight:2px;
+	line-height: 1.7;
+	padding:30px;
+	background: #e5a597;
+	border-radius: 0%;
+	text-indent: 2em;
+	
+}
+#lastone-p2{
+	text-indent: 2em;
+}
+a:link{
+	color:#fff;
+}
+a:visited{
+	color:#fff;
+}
+a:hover{
+	background:#b8335c;
+	border:1px solid #fff;
+}
+li a{
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+#aa1,#bb1,#cc1{
+	width:500px;
+	height:80px;
+	font-size:15px;
+	line-height: 1.5;
+	margin-left:285px;
+	padding-top:-5px;
+	display:none;
+	background:#fff;
+	border:outset 1px #fff;
+	padding-top:10px;
+	padding-left:20px;
+	margin-bottom:25px;
+}
+.button-p{
+	text-align: center;
+}
+
+#b1,#b2,#b3{
+	display:none;
+}
+#aa,#bb,#cc{
+	display:none;
+	cursor:pointer;
+}
+#last-pic1,#last-pic2,#last-pic3{
+	font-size:16px;
+	font-weight:2px;
+	width:150px;
+	display:inline-block;
+	padding-left:30px;
+	
+}
+.lastp{
+	text-align: center;
+	margin-top:15px;
+	height:50px;
+	font-size:14px;
+	font-weight:2px;
+
+
+}
+#tel-num,#email-num,#qq-num{
+	display:none;
+	padding-left:40px;
+	
+}
+.lastpp {
+	margin-top:0;
+	
+}
+#page2-title{
+	display:inline-block;
+	font-weight:2px;
+	text-indent: 0.5em;
+
+}
+#special{
+	border-bottom:dotted #fff 2px;
+}
+input{
+	cursor:pointer;
+}
